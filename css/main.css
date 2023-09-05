@@ -35,14 +35,14 @@ img {
 
 .intro > h2 {
     color: #757575;
-    font-size: 3vmin;
+    font-size: 10vmin;
 }
 
 /* Page content */
 
 .content {
     padding-top: 30px;
-    font-size: 18px; 
+    font-size: 15px; 
 }
 
 br {
