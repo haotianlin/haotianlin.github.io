@@ -1,0 +1,16 @@
+### your site title here
+
+title: Wooseok Ha
+author: Contact
+email: haywse@gmail.com
+
+
+### let's use the minima theme (see https://github.com/jekyll/minima)
+
+theme: minima
+
+
+### exclude the instructions / write-up in the README.md
+
+exclude:
+- README.md
