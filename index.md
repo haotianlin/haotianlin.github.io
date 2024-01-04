@@ -3,7 +3,12 @@
 layout: default
 ---
 
-<img style="border: 0px solid ; width: 325px; height: 325px;" src="profile.jpg" alt="hi" class="inline">
+
+<p align="center" width="100%">
+    <img width="15%" src="profile.jpg"> 
+</p>
+
+<!-- <img style="border: 0px solid ; width: 325px; height: 325px;" src="profile.jpg" alt="hi" class="inline"> -->
 
 ### **About Me**
 
