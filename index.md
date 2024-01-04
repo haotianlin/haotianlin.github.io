@@ -2,8 +2,9 @@
 # title: Haotian Lin
 layout: default
 ---
-**Align center:**
-<p align="center" width="100%">
+
+
+<p align="left" width="100%">
     <img width="50%" src="profile.jpg"> 
 </p>
 
