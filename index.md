@@ -4,10 +4,10 @@ layout: default
 ---
 **Align center:**
 <p align="center" width="100%">
-    <img width="100%" src="profile.jpg"> 
+    <img width="50%" src="profile.jpg"> 
 </p>
 
-<!-- <img style="border: 0px solid ; width: 325px; height: 325px;" src="profile.jpg" alt="hi" class="inline"> -->
+<!-- <img style="border: 0px solid ; width: 325px; height: 274px;" src="profile.jpg" alt="hi" class="inline"> -->
 
 ### **About Me**
 
