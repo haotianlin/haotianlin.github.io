@@ -7,7 +7,7 @@ layout: default
 
 ### **About Me**
 
-I am a PhD student at Department of Statistics, Penn State University. I am fortunate to be advised by Professor [Matthew Reimherr](https://mreimherr.github.io/). Prior to this, I received my Bachelor degree in Statistics from University of Science and Technology of China. 
+I am a PhD student at [Department of Statistics](https://science.psu.edu/stat), The Pennsylvania State University. I am fortunate to be advised by Professor [Matthew Reimherr](https://mreimherr.github.io/). Prior to this, I received my Bachelor degree in Statistics from University of Science and Technology of China. 
 
 My research interests are mainly forcing on functional data, kernel methods and statistical transfer learning. In particular, I'm working on accurately and adaptively estimating the offset structure between different domains in transfer learning and multi-task learning.
 
