@@ -12,8 +12,6 @@ I am a PhD student at Department of Statistics, Penn State University. I am fort
 My research interests are mainly forcing on functional data, kernel methods and statistical transfer learning. In particular, I'm working on accurately and adaptively estimating the offset structure between different domains in transfer learning and multi-task learning.
 
 
-My research is centered on high-dimensional statistics and machine learning, with a focus on sparse and low rank optimization, local graph clustering, interpretable machine learning, and domain adaptation. I am particularly interested in the applications of statistical and optimization methods to diverse scientific areas such as medical imaging, population genetics, and cosmology. I also look forward to exploring research in other areas of statistics and machine learning!
-
 
 <!-- ### **Education**
 
