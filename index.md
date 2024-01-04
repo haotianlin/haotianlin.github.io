@@ -26,7 +26,7 @@ My research is centered on high-dimensional statistics and machine learning, wit
 * B.S., Statistics, B.A., Economics, Minor in Mathematics, 2011 -->
 
 
-### **Preprints / Publications**
+### **Preprints**
 
 - Overcoming the Saturation Effect for Spectral Regularized Algorithms.\
   Haotian Lin and Matthew Reimherr
@@ -34,10 +34,10 @@ My research is centered on high-dimensional statistics and machine learning, wit
 - Smooth-Adaptive Hypothesis Transfer Learning.\
   Haotian Lin and Matthew Reimherr
 
-- On Hypothesis Transfer Learning in Functional Linear Models. [arXiv](https://arxiv.org/abs/2206.04277).\
+- On Hypothesis Transfer Learning in Functional Linear Models. [[arXiv]](https://arxiv.org/abs/2206.04277)\
   Haotian Lin and Matthew Reimherr
 
-- Differentially Private Functional Summaries via the Independent Component Laplace Process. [arXiv](https://arxiv.org/abs/2309.00125)\
+- Differentially Private Functional Summaries via the Independent Component Laplace Process. [[arXiv]](https://arxiv.org/abs/2309.00125)\
   Haotian Lin and Matthew Reimherr
 
 
