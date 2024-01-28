@@ -31,10 +31,10 @@ My research interests are mainly forcing on functional data, kernel methods and 
 
 ### **Preprints**
 
-- Overcoming the Saturation Effect for Spectral Regularized Algorithms.\
+- Spectral Algorithms with Gaussian Kernels: Robustness and Optimality.\
   Haotian Lin and Matthew Reimherr
 
-- Smooth-Adaptive Hypothesis Transfer Learning.\
+- Smoothness Adaptive Hypothesis Transfer Learning.\
   Haotian Lin and Matthew Reimherr
 
 - On Hypothesis Transfer Learning in Functional Linear Models. [[arXiv]](https://arxiv.org/abs/2206.04277)\
