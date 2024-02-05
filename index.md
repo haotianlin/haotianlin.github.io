@@ -40,7 +40,7 @@ My research interests are mainly forcing on functional data, kernel methods and 
 - On Hypothesis Transfer Learning in Functional Linear Models. [[arXiv]](https://arxiv.org/abs/2206.04277)\
   Haotian Lin and Matthew Reimherr
 
-- Pure Differential Privacy for Functional Summaries via a Laplce-like Process [[arXiv]](https://arxiv.org/abs/2309.00125) (JMLR under Revision) \
+- Pure Differential Privacy for Functional Summaries via a Laplce-like Process. [[arXiv]](https://arxiv.org/abs/2309.00125) (JMLR under Revision) \
   Haotian Lin and Matthew Reimherr
 
 
