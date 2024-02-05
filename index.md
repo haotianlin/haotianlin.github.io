@@ -45,6 +45,15 @@ My research interests are mainly forcing on functional data, kernel methods and 
 
 
 
+### **Services**
+
+I served as reviewer for the following Journal/Conference.
+
+- Journal: Computational Statistics & Data Analysis; Journal of Statistical Computation and Simulation
+
+- Conference: AISTATS 2024
+
+
 <!-- ### **Extended Abstracts**
 
 - Simultaneous spectral scaling and basis material map reconstruction for spectral CT with photon-counting detectors.
