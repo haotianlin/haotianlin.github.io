@@ -14,7 +14,7 @@ layout: default
 
 I am a PhD student at [Department of Statistics](https://science.psu.edu/stat), The Pennsylvania State University. I am fortunate to be advised by Professor [Matthew Reimherr](https://mreimherr.github.io/). Prior to this, I received my Bachelor degree in Statistics from University of Science and Technology of China. 
 
-My research interests are mainly forcing on functional data, kernel methods and statistical transfer learning. In particular, I'm working on accurately and adaptively estimating the offset structure between different domains in transfer learning and multi-task learning.
+My research interests are mainly forcing on functional/longitudinal data, kernel methods and statistical transfer learning. In particular, I'm working on accurately and adaptively estimating the offset structure between different domains in transfer learning and multi-task learning.
 
 
 
@@ -65,8 +65,8 @@ Emil Y Sidky, Taly Gilat Schmidt, Rina Foygel Barber, Wooseok Ha, and Xiaochuan 
 
 
 
-<!-- ### **Teaching at UC Berkeley**
+### **Teaching at Penn State**
 
-- STAT88: Probability and Mathematical Statistics in Data Science (Fall 2020).
+- STAT-440: Computational Statistics (Spring 2023).
 
-- STAT158: Design and Analysis of Experiments (Spring 2020). -->
+- STAT-319: Elementary Mathematical Statistics (Spring 2022).
