@@ -32,19 +32,19 @@ My research interests are mainly forcing on functional/longitudinal data, kernel
 ### **Preprints**
 
 - Spectral Algorithms with Gaussian Kernels: Robustness and Optimality.\
-  Haotian Lin and Matthew Reimherr \
+  **Haotian Lin** and Matthew Reimherr \
   (Under Review)
 
 - Smoothness Adaptive Hypothesis Transfer Learning.\
-  Haotian Lin and Matthew Reimherr \
+  **Haotian Lin** and Matthew Reimherr \
   (Under Review)
 
 - On Hypothesis Transfer Learning in Functional Linear Models. \
-  Haotian Lin and Matthew Reimherr \
+  **Haotian Lin** and Matthew Reimherr \
   [[arXiv]](https://arxiv.org/abs/2206.04277) (Under Review)
 
 - Pure Differential Privacy for Functional Summaries via a Laplce-like Process. \
-  Haotian Lin and Matthew Reimherr \
+  **Haotian Lin** and Matthew Reimherr \
   [[arXiv]](https://arxiv.org/abs/2309.00125) (JMLR under Revision)
 
 
