@@ -37,7 +37,7 @@ My research interests are mainly forcing on functional/longitudinal data, kernel
 
 - Smoothness Adaptive Hypothesis Transfer Learning.\
   **Haotian Lin** and Matthew Reimherr \
-  (Under Review)
+  [[arXiv]](https://arxiv.org/abs/2402.14966) (Under Review)
 
 - On Hypothesis Transfer Learning in Functional Linear Models. \
   **Haotian Lin** and Matthew Reimherr \
