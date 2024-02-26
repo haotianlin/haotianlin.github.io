@@ -45,7 +45,7 @@ My research interests are mainly forcing on functional/longitudinal data, kernel
 
 - Pure Differential Privacy for Functional Summaries via a Laplce-like Process. \
   **Haotian Lin** and Matthew Reimherr \
-  [[arXiv]](https://arxiv.org/abs/2309.00125) (JMLR under Revision)
+  [[arXiv]](https://arxiv.org/abs/2309.00125) (Under Revision)
 
 
 
