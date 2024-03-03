@@ -49,13 +49,13 @@ My research interests are mainly forcing on functional/longitudinal data, kernel
 
 
 
-### **Services**
+<!-- ### **Services**
 
 I served as reviewer for the following Journal/Conference.
 
 - Journal: Computational Statistics & Data Analysis; Journal of Statistical Computation and Simulation
 
-- Conference: AISTATS 2024
+- Conference: AISTATS 2024 -->
 
 
 <!-- ### **Extended Abstracts**
