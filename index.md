@@ -14,19 +14,8 @@ layout: default
 
 I am a PhD student at [Department of Statistics](https://science.psu.edu/stat), The Pennsylvania State University. I am fortunate to be advised by Professor [Matthew Reimherr](https://mreimherr.github.io/). Prior to this, I received my Bachelor degree in Statistics from University of Science and Technology of China. 
 
-My research interests are mainly forcing on functional/longitudinal data, kernel methods and statistical transfer learning. In particular, I'm working on accurately and adaptively estimating the offset structure between different domains in transfer learning and multi-task learning.
+My research interests are mainly forcing on functional/longitudinal data, kernel methods and statistical transfer learning. In particular, I'm working on accurately and adaptively estimating the discrepancy between different domains in transfer learning and multi-task learning.
 
-
-
-<!-- ### **Education**
-
-[The University of Chicago](https://www.uchicago.edu/)
-* Ph.D. in Statistics, 2018
-* Advisor: [Rina Foygel Barber](http://galton.uchicago.edu/~rina/)
-
-[Seoul National University](http://en.snu.ac.kr/)
-* M.S., Statistics, 2013 (Advisor: [Byeong U. Park](https://stat.snu.ac.kr/theostat/BUPark.htm))
-* B.S., Statistics, B.A., Economics, Minor in Mathematics, 2011 -->
 
 
 ### **Preprints**
@@ -58,11 +47,10 @@ I served as reviewer for the following Journal/Conference.
 - Conference: AISTATS 2024 -->
 
 
-<!-- ### **Extended Abstracts**
+### **Industrial Experience**
 
-- Simultaneous spectral scaling and basis material map reconstruction for spectral CT with photon-counting detectors.
-Emil Y Sidky, Taly Gilat Schmidt, Rina Foygel Barber, Wooseok Ha, and Xiaochuan Pan. 4th International Conference on Image Formation in X-ray Computed Tomography (_CT meeting 2016_). -->
-
+- Google - Data Sicentist Intern \
+  2022.05 - 2022.08
 
 
 ### **Teaching at Penn State**
