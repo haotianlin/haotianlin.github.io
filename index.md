@@ -14,7 +14,7 @@ layout: default
 
 I am a PhD student at [Department of Statistics](https://science.psu.edu/stat), The Pennsylvania State University. I am fortunate to be advised by Professor [Matthew Reimherr](https://mreimherr.github.io/). Prior to this, I received my Bachelor degree in Statistics from University of Science and Technology of China. 
 
-My research interests are mainly forcing on functional/longitudinal data, kernel methods and statistical transfer learning. In particular, I'm working on accurately and adaptively estimating the discrepancy between different domains in transfer learning and multi-task learning.
+My research interests are mainly forcing on functional/longitudinal data, statistical transfer learning and differential privacy with kernel methods. Currently, I'm working on accurately and adaptively estimating the discrepancy between different domains in transfer learning and multi-task learning.
 
 
 
@@ -50,7 +50,7 @@ I served as reviewer for the following Journal/Conference.
 ### **Industrial Experience**
 
 - Google - Data Sicentist Intern \
-  2022.05 - 2022.08
+  May 2022 - Aug. 2022
 
 
 ### **Teaching at Penn State**
