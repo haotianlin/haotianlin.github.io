@@ -55,6 +55,8 @@ I served as reviewer for the following Journal/Conference.
 
 ### **Teaching at Penn State**
 
+- STAT-184: Introduction to R (Summer 2024)
+
 - STAT-440: Computational Statistics (Spring 2023).
 
 - STAT-319: Elementary Mathematical Statistics (Spring 2022).
