@@ -12,9 +12,9 @@ layout: default
 
 ### **About Me**
 
-I am a PhD student at [Department of Statistics](https://science.psu.edu/stat), The Pennsylvania State University. I am fortunate to be advised by Professor [Matthew Reimherr](https://mreimherr.github.io/). Prior to this, I received my Bachelor degree in Statistics from University of Science and Technology of China. 
+I am a PhD student in [Department of Statistics](https://science.psu.edu/stat), The Pennsylvania State University. I am fortunate to be advised by Professor [Matthew Reimherr](https://mreimherr.github.io/). Prior to this, I received my Bachelor degree in Statistics from University of Science and Technology of China. 
 
-My research interests are mainly forcing on functional/longitudinal data, statistical transfer learning and differential privacy with kernel methods. Currently, I'm working on leveraging kernel methods to address learning problems with different types of distribution shifts.
+My research interests are mainly forcing on statistical transfer learning, functional/longitudinal data and differential privacy with kernel methods. Currently, I'm interested in leveraging kernel methods to theoretically address learning problems with different types of distribution shifts.
 
 
 
