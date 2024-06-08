@@ -8,11 +8,6 @@ email: hzl435@psu.edu
 ### let's use the minima theme (see https://github.com/jekyll/minima)
 
 theme: minima
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "Projects"
-    url: "/projects/"
 
 
 ### exclude the instructions / write-up in the README.md

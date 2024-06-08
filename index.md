@@ -3,8 +3,6 @@
 layout: home
 ---
 
-[Projects]({{ site.baseurl }}/projects/)
-
 <p align="left" width="100%">
     <img width="50%" src="profile.jpg"> 
 </p>
