@@ -32,7 +32,7 @@ My research interests are mainly forcing on statistical transfer learning, funct
 - On Hypothesis Transfer Learning in Functional Linear Models. \
   **Haotian Lin** and Matthew Reimherr \
   (Under Review) \
-  [[arXiv]](https://arxiv.org/abs/2206.04277) [![Old Version]](paper/HTL-FLR-old.pdf)
+  [[arXiv]](https://arxiv.org/abs/2206.04277) [[Old Version]](paper/HTL-FLR-old.pdf)
 
 - Pure Differential Privacy for Functional Summaries via a Laplce-like Process. \
   **Haotian Lin** and Matthew Reimherr \
