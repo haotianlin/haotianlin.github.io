@@ -23,31 +23,22 @@ My research interests are mainly forcing on statistical transfer learning, funct
   **Haotian Lin** and Matthew Reimherr \
   (Under Review)
 
-- Smoothness Adaptive Hypothesis Transfer Learning.\
-  **Haotian Lin** and Matthew Reimherr \
-  (Under Review) \
-  [[arXiv]](https://arxiv.org/abs/2402.14966) 
-
-- On Hypothesis Transfer Learning in Functional Linear Models. \
-  **Haotian Lin** and Matthew Reimherr \
-  (Under Review) \
-  [[arXiv]](https://arxiv.org/abs/2206.04277) [[Old Version:On Transfer Learning in Functional Linear Regression]](paper/HTL-FLR-old.pdf)
-
 - Pure Differential Privacy for Functional Summaries via a Laplce-like Process. \
   **Haotian Lin** and Matthew Reimherr \
   [[arXiv]](https://arxiv.org/abs/2309.00125) (Under Revision)
 
-<!-- ### **Publication**
+
+### **Publication**
 
 - Smoothness Adaptive Hypothesis Transfer Learning.\
   **Haotian Lin** and Matthew Reimherr \
-  ICML 2024 \
+  International Conference on Machine Learning (ICML), 2024 \
   [[arXiv]](https://arxiv.org/abs/2402.14966) 
 
 - On Hypothesis Transfer Learning in Functional Linear Models. \
   **Haotian Lin** and Matthew Reimherr \
-  ICML 2024 \
-  [[arXiv]](https://arxiv.org/abs/2206.04277)  -->
+  International Conference on Machine Learning (ICML), 2024 \
+  [[arXiv]](https://arxiv.org/abs/2206.04277) [[Old Version:On Transfer Learning in Functional Linear Regression]](paper/HTL-FLR-old.pdf)
 
 
 
