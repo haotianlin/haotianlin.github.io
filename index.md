@@ -15,6 +15,8 @@ I am a PhD student in [Department of Statistics](https://science.psu.edu/stat), 
 
 My research interests are mainly forcing on statistical transfer learning, functional/longitudinal data and differential privacy with kernel methods. Currently, I'm interested in leveraging kernel methods to theoretically address learning problems with different types of distribution shifts.
 
+[Curriculum Vitae](file/CV.pdf)
+[Google Scholar](https://scholar.google.com/citations?user=DtHTtSwAAAAJ&hl=en)
 
 
 ### **Preprints**
@@ -38,12 +40,12 @@ My research interests are mainly forcing on statistical transfer learning, funct
 - On Hypothesis Transfer Learning in Functional Linear Models. \
   **Haotian Lin** and Matthew Reimherr \
   International Conference on Machine Learning (ICML), 2024 \
-  [[arXiv]](https://arxiv.org/abs/2206.04277) [[Old Version:On Transfer Learning in Functional Linear Regression]](paper/HTL-FLR-old.pdf)
+  [[arXiv]](https://arxiv.org/abs/2206.04277) 
 
 
 
 
-
+<!-- 
 ### **Services**
 
 I served as reviewer for the following Journal/Conference.
@@ -65,4 +67,4 @@ I served as reviewer for the following Journal/Conference.
 
 - STAT-440: Computational Statistics (Spring 2023).
 
-- STAT-319: Elementary Mathematical Statistics (Spring 2022).
+- STAT-319: Elementary Mathematical Statistics (Spring 2022). -->
