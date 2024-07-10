@@ -26,12 +26,13 @@ My research interests are mainly forcing on statistical transfer learning, funct
   **Haotian Lin** and Matthew Reimherr \
   (Under Review)
 
-- Pure Differential Privacy for Functional Summaries via a Laplce-like Process. \
-  **Haotian Lin** and Matthew Reimherr \
-  [[arXiv]](https://arxiv.org/abs/2309.00125) (Under Revision)
-
 
 ### **Publication**
+
+- Pure Differential Privacy for Functional Summaries via a Laplce-like Process. \
+  **Haotian Lin** and Matthew Reimherr \
+  To appear in Journal of Machine Learning Research (JMLR), 2024\
+  [[arXiv]](https://arxiv.org/abs/2309.00125) 
 
 - Smoothness Adaptive Hypothesis Transfer Learning.\
   **Haotian Lin** and Matthew Reimherr \
