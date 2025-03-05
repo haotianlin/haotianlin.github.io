@@ -13,7 +13,7 @@ layout: home
 
 I am a PhD student in [Department of Statistics](https://science.psu.edu/stat), The Pennsylvania State University. I am fortunate to be advised by Professor [Matthew Reimherr](https://mreimherr.github.io/). Prior to this, I received my Bachelor degree in Statistics from University of Science and Technology of China. 
 
-My research interests are mainly forcing on statistical transfer learning, functional/longitudinal data and differential privacy with kernel methods. Currently, I'm interested in leveraging kernel methods to theoretically address learning problems with different types of distribution shifts.
+My research interests are mainly focusing on statistical transfer learning, functional/longitudinal data and differential privacy with kernel methods. Currently, I'm interested in leveraging kernel methods to address learning problems with different types of distribution shifts.
 
 [Curriculum Vitae](file/CV.pdf)
 
@@ -22,7 +22,11 @@ My research interests are mainly forcing on statistical transfer learning, funct
 
 ### **Preprints**
 
-- Spectral Algorithms with Gaussian Kernels: Robustness and Optimality.\
+- Co-Regularization for Knowledge Transfer in High Dimensions.\
+  Shuo-Shuo Liu^{*}, **Haotian Lin^{*}**, Matthew Reimherr, and Runze Li \
+  (Under Review)
+
+- Model-Robust and Adaptive-Optimal Transfer Learning for Tackling Concept Shifts in Nonparametric Regression.\
   **Haotian Lin** and Matthew Reimherr \
   (Under Review)
 
@@ -32,17 +36,17 @@ My research interests are mainly forcing on statistical transfer learning, funct
 - Pure Differential Privacy for Functional Summaries via a Laplce-like Process. \
   **Haotian Lin** and Matthew Reimherr \
   To appear in Journal of Machine Learning Research (JMLR), 2024\
-  [[arXiv]](https://arxiv.org/abs/2309.00125) 
+  [[Paper]](https://www.jmlr.org/papers/v25/22-1384.html) [[arXiv]](https://arxiv.org/abs/2309.00125) 
 
 - Smoothness Adaptive Hypothesis Transfer Learning.\
   **Haotian Lin** and Matthew Reimherr \
   International Conference on Machine Learning (ICML), 2024 \
-  [[arXiv]](https://arxiv.org/abs/2402.14966) 
+  [[Paper]](https://proceedings.mlr.press/v235/lin24q.html) [[arXiv]](https://arxiv.org/abs/2402.14966) 
 
 - On Hypothesis Transfer Learning in Functional Linear Models. \
   **Haotian Lin** and Matthew Reimherr \
   International Conference on Machine Learning (ICML), 2024 \
-  [[arXiv]](https://arxiv.org/abs/2206.04277) 
+  [[Paper]](https://proceedings.mlr.press/v235/lin24p.html) [[arXiv]](https://arxiv.org/abs/2206.04277) [[Code]](https://github.com/haotianlin/HTL-FLM)
 
 
 
