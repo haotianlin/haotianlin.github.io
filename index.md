@@ -25,7 +25,8 @@ My research interests are mainly focusing on statistical transfer learning, func
 
 - Model-Robust and Adaptive-Optimal Transfer Learning for Tackling Concept Shifts in Nonparametric Regression.\
   **Haotian Lin** and Matthew Reimherr \
-  (Under Review)
+  (Under Review) \
+  [[arXiv]](https://arxiv.org/abs/2501.10870)
 
 
 ### **Publication**
