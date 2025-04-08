@@ -26,25 +26,25 @@ My research interests are mainly focusing on statistical transfer learning, func
 - Model-Robust and Adaptive-Optimal Transfer Learning for Tackling Concept Shifts in Nonparametric Regression.\
   **Haotian Lin** and Matthew Reimherr \
   (Under Review) \
-  [[arXiv]](https://arxiv.org/abs/2501.10870)
+  [[arXiv:2501.10870]](https://arxiv.org/abs/2501.10870)
 
 
 ### **Publication**
 
-- Pure Differential Privacy for Functional Summaries with a Laplce-like Process. \
+- Pure Differential Privacy for Functional Summaries with a Laplace-like Process. \
   **Haotian Lin** and Matthew Reimherr \
   Journal of Machine Learning Research (JMLR), 2024\
-  [[Paper]](https://www.jmlr.org/papers/v25/22-1384.html) [[arXiv]](https://arxiv.org/abs/2309.00125) 
+  [[Paper]](https://www.jmlr.org/papers/v25/22-1384.html) [[arXiv:2309.00125]](https://arxiv.org/abs/2309.00125) 
 
 - Smoothness Adaptive Hypothesis Transfer Learning.\
   **Haotian Lin** and Matthew Reimherr \
   International Conference on Machine Learning (ICML), 2024 \
-  [[Paper]](https://proceedings.mlr.press/v235/lin24q.html) [[arXiv]](https://arxiv.org/abs/2402.14966) 
+  [[Paper]](https://proceedings.mlr.press/v235/lin24q.html) [[arXiv:2402.14966]](https://arxiv.org/abs/2402.14966) 
 
 - On Hypothesis Transfer Learning in Functional Linear Models. \
   **Haotian Lin** and Matthew Reimherr \
   International Conference on Machine Learning (ICML), 2024 \
-  [[Paper]](https://proceedings.mlr.press/v235/lin24p.html) [[arXiv]](https://arxiv.org/abs/2206.04277) [[Code]](https://github.com/haotianlin/HTL-FLM)
+  [[Paper]](https://proceedings.mlr.press/v235/lin24p.html) [[arXiv:2206.04277]](https://arxiv.org/abs/2206.04277) [[Code]](https://github.com/haotianlin/HTL-FLM)
 
 
 
