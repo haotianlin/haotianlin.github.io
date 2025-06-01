@@ -27,7 +27,7 @@ My research interests are mainly focusing on statistical transfer learning, func
 (\* Equal Contribution)
 
 - Co-Regularization for Multi-Source Knowledge Transfer in High Dimensions.\
-  Shuo-Shuo Liu ^{\*}, **Haotian Lin** ^{\*}, Matthew Reimherr, and Runze Li \
+  Shuo-Shuo Liu \*, **Haotian Lin** \*, Matthew Reimherr, and Runze Li \
   (Submitted) 
 
 - Model-Robust and Adaptive-Optimal Transfer Learning for Tackling Concept Shifts in Nonparametric Regression.\
