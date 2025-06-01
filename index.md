@@ -22,16 +22,22 @@ My research interests are mainly focusing on statistical transfer learning, func
 [Google Scholar](https://scholar.google.com/citations?user=DtHTtSwAAAAJ&hl=en)
 
 
-### **Preprints**
+### **Publications and Preprints**
+
+($*$ Equal Contribution)
+
+- Co-Regularization for Multi-Source Knowledge Transfer in High Dimensions.\
+  Shuo-Shuo Liu$^{*}$, **Haotian Lin**$^{*}$, Matthew Reimherr, and Runze Li \
+  (Submitted) \
+
+
 
 
 - Model-Robust and Adaptive-Optimal Transfer Learning for Tackling Concept Shifts in Nonparametric Regression.\
   **Haotian Lin** and Matthew Reimherr \
-  (Under Review) \
+  (Submitted) \
   [[arXiv:2501.10870]](https://arxiv.org/abs/2501.10870)
 
-
-### **Publication**
 
 - Pure Differential Privacy for Functional Summaries with a Laplace-like Process. \
   **Haotian Lin** and Matthew Reimherr \
