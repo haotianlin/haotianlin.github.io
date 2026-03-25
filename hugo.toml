@@ -1,0 +1,18 @@
+baseurl = "https://haotianlin.github.io/"
+title = "Haotian Lin"
+theme = "hugo-theme-console"
+languageCode = "en-us"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "github"
+    tabWidth = 4
+
+[params]
+  author = "Haotian Lin"
+  description = "Haotian Lin's Academic Homepage"
+  customCSS = ["css/custom.css"]
+
