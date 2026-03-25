@@ -32,7 +32,7 @@ My current work at Amazon focuses on agentic workflows, LLM/VLM post-training, a
 
 1. **SenTSR-Bench: Thinking with Injected Knowledge for Time-Series Reasoning**\
    Zelin He, Boran Han, Xiyuan Zhang, Shuai Zhang, **Haotian Lin**, Qi Zhu, Haoyang Fang, Danielle C. Maddix, Abdul Fatir Ansari, Akash Chandrayan, Abhinav Pradhan, Bernie Wang, Matthew Reimherr\
-   nternational Conference on Artificial Intelligence and Statistics (AISTATS), 2026\
+   International Conference on Artificial Intelligence and Statistics (AISTATS), 2026\
    [[arXiv:2602.19455]](https://arxiv.org/abs/2602.19455)
 
 1.  **Co-Regularization Enhances Knowledge Transfer in High Dimensions**\
