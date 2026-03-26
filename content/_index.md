@@ -17,7 +17,9 @@ I am a Postdoctoral Scientist at Amazon. I received my Ph.D. in Statistics from 
 My current work at Amazon focuses on agentic workflows, LLM/VLM post-training, and multimodal anomaly detection and diagnosis. Previously, my Ph.D. work centered on robust transfer learning, functional data learning, and differential privacy via kernel methods.
 
 
-[Curriculum Vitae](https://www.dropbox.com/scl/fi/bukjumuwny0za6ew4qq9d/Haotian-Lin-CV.pdf?rlkey=anufst9qfh18m3warucm2u0vk&st=pq24e4ly&dl=0)&ensp;
+<!-- [Curriculum Vitae](https://www.dropbox.com/scl/fi/bukjumuwny0za6ew4qq9d/Haotian-Lin-CV.pdf?rlkey=anufst9qfh18m3warucm2u0vk&st=pq24e4ly&dl=0)&ensp; -->
+
+[Curriculum Vitae](https://drive.google.com/file/d/1RC0X2-5jfnU5z2GWPu8i-8xhp4T6BWxG/view?usp=sharing)&ensp;
 
 [Google Scholar](https://scholar.google.com/citations?user=DtHTtSwAAAAJ&hl=en)
 
