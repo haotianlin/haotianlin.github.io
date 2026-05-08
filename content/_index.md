@@ -12,9 +12,9 @@ title: Haotian Lin
 
 
 
-I am a Postdoctoral Scientist at Amazon. I received my Ph.D. in Statistics from [The Pennsylvania State University](https://science.psu.edu/stat), advised by Professor [Matthew Reimherr](https://mreimherr.github.io/), and my B.S. in Statistics from University of Science and Technology of China.
+I am a Postdoctoral Scientist at Amazon. I received my Ph.D. in Statistics from [The Pennsylvania State University](https://science.psu.edu/stat), working with [Matthew Reimherr](https://mreimherr.github.io/), and my B.S. in Statistics from University of Science and Technology of China.
 
-My current work at Amazon focuses on agentic workflows, LLM/VLM post-training, and multimodal anomaly detection and diagnosis. Previously, my Ph.D. work centered on robust transfer learning, functional data learning, and differential privacy via kernel methods.
+My current work at Amazon focuses on agentic workflows, LLM/VLM agentic RL, and multimodal anomaly detection and diagnosis. Previously, my Ph.D. work centered on robust transfer learning, functional data learning, and differential privacy via kernel methods.
 
 
 <!-- [Curriculum Vitae](https://www.dropbox.com/scl/fi/bukjumuwny0za6ew4qq9d/Haotian-Lin-CV.pdf?rlkey=anufst9qfh18m3warucm2u0vk&st=pq24e4ly&dl=0)&ensp; -->
