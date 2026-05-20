@@ -1,0 +1,7 @@
+{{- $key := .Get "key" -}}
+{{- $content := readFile "static/bibs/references.bib" -}}
+{{- $pattern := printf `(?s)(@\w+\{%s,.*?\n\})` $key -}}
+{{- $match := findRE $pattern $content 1 -}}
+{{- $entry := "" -}}
+{{- range $match -}}{{- $entry = . -}}{{- end -}}
+<a class="bibtex-link" onclick="var el=document.getElementById('bib-{{$key}}');el.style.display=el.style.display==='none'?'block':'none'">[bibtex]</a><div id="bib-{{$key}}" class="bibtex" style="display:none"><div class="bibtex-header"><button onclick="navigator.clipboard.writeText(document.querySelector('#bib-{{$key}} .bibtex-content').textContent)" class="bibtex-btn">Copy to Clipboard</button><button onclick="document.getElementById('bib-{{$key}}').style.display='none'" class="bibtex-btn">Close</button></div><div class="bibtex-code-box"><pre><code class="bibtex-content">{{ $entry }}</code></pre></div></div>

@@ -30,34 +30,34 @@ My current work at Amazon focuses on agentic workflows, LLM/VLM agentic RL, and 
 
 1. **Discussion on ``INTACT: A method for integration of longitudinal physical activity data from multiple sources''**\
    **Haotian Lin** and Matthew Reimherr\
-   Biometrics (to appear), Inivited discussion
+   Biometrics (to appear), Inivited discussion 
 
 1. **SenTSR-Bench: Thinking with Injected Knowledge for Time-Series Reasoning**\
    Zelin He, Boran Han, Xiyuan Zhang, Shuai Zhang, **Haotian Lin**, Qi Zhu, Haoyang Fang, Danielle C. Maddix, Abdul Fatir Ansari, Akash Chandrayan, Abhinav Pradhan, Bernie Wang, Matthew Reimherr\
    International Conference on Artificial Intelligence and Statistics (AISTATS), 2026\
-   [[arXiv:2602.19455]](https://arxiv.org/abs/2602.19455)
+   [[arXiv:2602.19455]](https://arxiv.org/abs/2602.19455) {{<bibtex key="he2026sentsr">}}
 
 1.  **Co-Regularization Enhances Knowledge Transfer in High Dimensions**\
     Shuo-Shuo Liu\*, **Haotian Lin**\*, Matthew Reimherr, and Runze Li\
     Neural Information Processing Systems (NeurIPS), 2025\
-    [[Paper]](https://openreview.net/forum?id=Oq7Rgvfqvj)
+    [[Paper]](https://openreview.net/forum?id=Oq7Rgvfqvj) {{<bibtex key="liu2026co">}}
 
 1.  **Model-Robust and Adaptive-Optimal Transfer Learning for Tackling Concept Shifts in Nonparametric Regression**\
     **Haotian Lin** and Matthew Reimherr\
     (Submitted)\
-    [[arXiv:2501.10870]](https://arxiv.org/abs/2501.10870)
+    [[arXiv:2501.10870]](https://arxiv.org/abs/2501.10870) {{<bibtex key="lin2025model">}}
 
 1.  **Pure Differential Privacy for Functional Summaries with a Laplace-like Process**\
     **Haotian Lin** and Matthew Reimherr\
     Journal of Machine Learning Research (JMLR), 2024\
-    [[Paper]](https://www.jmlr.org/papers/v25/22-1384.html) [[arXiv:2309.00125]](https://arxiv.org/abs/2309.00125)
+    [[Paper]](https://www.jmlr.org/papers/v25/22-1384.html) [[arXiv:2309.00125]](https://arxiv.org/abs/2309.00125) {{<bibtex key="lin2024pure">}}
 
 1.  **Smoothness Adaptive Hypothesis Transfer Learning**\
     **Haotian Lin** and Matthew Reimherr\
     International Conference on Machine Learning (ICML), 2024\
-    [[Paper]](https://proceedings.mlr.press/v235/lin24q.html) [[arXiv:2402.14966]](https://arxiv.org/abs/2402.14966)
+    [[Paper]](https://proceedings.mlr.press/v235/lin24q.html) [[arXiv:2402.14966]](https://arxiv.org/abs/2402.14966) {{<bibtex key="lin2024smoothness">}}
 
 1.  **On Hypothesis Transfer Learning in Functional Linear Models**\
     **Haotian Lin** and Matthew Reimherr\
     International Conference on Machine Learning (ICML), 2024\
-    [[Paper]](https://proceedings.mlr.press/v235/lin24p.html) [[arXiv:2206.04277]](https://arxiv.org/abs/2206.04277) [[Code]](https://github.com/haotianlin/HTL-FLM)
+    [[Paper]](https://proceedings.mlr.press/v235/lin24p.html) [[arXiv:2206.04277]](https://arxiv.org/abs/2206.04277) [[Code]](https://github.com/haotianlin/HTL-FLM) {{<bibtex key="lin2024hypothesis">}}
