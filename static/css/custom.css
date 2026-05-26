@@ -23,34 +23,36 @@ a:hover {
     text-decoration: none;
 }
 
-/* Publication list styling */
+
+/* Publication list styling — reversed numbering (newest = highest number) */
+/* Update counter-reset to (total_papers + 1) when adding new publications */
 ol {
-    counter-reset: list;
+    counter-reset: item 8;
     margin: 0;
     padding: 0;
-    padding-left: 2em;
+    padding-left: 2.5em;
 }
 
-ol > li {
+ol li {
     list-style: none;
     margin-bottom: 1em;
     position: relative;
     padding-left: 0;
 }
 
-ol > li::before {
-    content: counter(list) ".";
-    counter-increment: list;
+ol li::before {
+    content: "[" counter(item) "]";
+    counter-increment: item -1;
     font-weight: bold;
     position: absolute;
-    left: -2em;
+    left: -2.5em;
 }
 
-ol > li::after {
+ol li::after {
     content: none;
 }
 
-ol > li > p {
+ol li > p {
     display: inline;
     margin: 0;
 }
