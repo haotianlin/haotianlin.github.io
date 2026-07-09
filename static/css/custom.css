@@ -9,25 +9,26 @@
     --progress-bar-background: #727578;
     --progress-bar-fill: #151515;
     --code-bg-color: #e8eff2;
-    --page-width: 75em;
+    --page-width: 70em;
 }
 
 /* Style links */
 a {
-    color: #42a5f5;
+    color: #1772d0;
 }
 
 a:hover {
-    background-color: #42a5f5;
+    background-color: #1772d0;
     color: #fff;
     text-decoration: none;
 }
 
 
 /* Publication list styling — reversed numbering (newest = highest number) */
-/* Update counter-reset to (total_papers + 1) when adding new publications */
+/* The starting counter value is set automatically by the script in
+   layouts/index.html (item count + 1), so no manual update is needed
+   when adding or removing publications. */
 ol {
-    counter-reset: item 8;
     margin: 0;
     padding: 0;
     padding-left: 2.5em;
@@ -57,17 +58,54 @@ ol li > p {
     margin: 0;
 }
 
-/* Bibtex shortcode */
+/* Make h1 a plain bold heading like h2: no "=====" underline, no table-cell
+   layout or extra padding from the console theme. */
+.container h1 {
+    font-size: 1.75em;
+    display: block;
+    padding: 0;
+    overflow: visible;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.container h1::after {
+    content: none;
+}
+
+/* Add breathing room above section headings (e.g. Publications and Preprints).
+   The console theme forces every heading to the body font size, so bump h2 up
+   to make it read as an actual section title. */
+.container h2 {
+    margin-top: 3.75em;
+    font-size: 1.5em;
+}
+
+/* Unnumbered publications: each entry renders as a <p> whose lines are broken
+   with <br> (title / authors / venue). We key off the <br> rather than a
+   leading <strong>, because About Me paragraphs can also start with bold text
+   but never contain <br>. */
+.container p:has(> strong:first-child):has(br) {
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Hide the terminal-style "Haotian Lin:~#" prompt bar at the top of the page.
+   Remove this rule to restore it. */
+.terminal-nav {
+    display: none;
+}
+
+/* Bibtex shortcode — colors intentionally omitted so it follows the plain
+   `a` / `a:hover` rules above (single source of truth for link color). */
 .bibtex-link {
     cursor: pointer;
-    color: #42a5f5;
     display: inline;
     margin-left: 4px;
 }
 
 .bibtex-link:hover {
-    background-color: #42a5f5;
-    color: #fff;
     text-decoration: none;
 }
 

@@ -1,3 +1,11 @@
 {{ define "main" }}
 {{ .Content }}
+<script>
+  // Auto reverse-numbering: newest publication gets the highest number.
+  // Counts each <ol> and sets its start to (item count + 1) so the last
+  // entry lands on [1]. No manual counter to maintain when adding papers.
+  document.querySelectorAll(".container ol").forEach(function (ol) {
+    ol.style.counterReset = "item " + (ol.children.length + 1);
+  });
+</script>
 {{ end }}
