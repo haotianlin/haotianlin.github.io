@@ -1,0 +1,51 @@
+# Font presets. Pick one in hugo.toml:  [params] font = "<key>"
+# Loaded by layouts/partials/header.html. Only body text / headings switch;
+# code blocks keep the theme's mono font.
+#
+# Fields:
+#   url    : Google Fonts stylesheet (omit for fonts the theme already ships)
+#   stack  : CSS font-family list (first = the font, rest = fallbacks)
+#   weight : body text weight (optional; default 400)
+#   lnum   : true = force lining (aligned) digits (Raleway uses old-style digits by default)
+#   size   : body font size (optional; default = theme's 16px, 14px on narrow screens)
+#   tracking : letter-spacing (optional; e.g. "-0.01em" = slightly tighter)
+
+raleway:
+  url: "https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap"
+  stack: 'Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif'
+  weight: 500
+  lnum: true
+
+lato:
+  url: "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+  stack: 'Lato, "Helvetica Neue", Helvetica, Arial, sans-serif'
+
+roboto:
+  url: "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
+  stack: 'Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif'
+
+roboto-slab:
+  url: "https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap"
+  stack: '"Roboto Slab", Georgia, serif'
+
+roboto-mono:
+  # Original console-theme look; font files ship with the theme (console.css @font-face).
+  stack: '"Roboto Mono", Menlo, Monaco, monospace'
+
+roboto-mono-light:
+  # Lighter, smaller Roboto Mono (experiment 2026-10-05). Loads the variable font
+  # from Google so weight 300 exists (the theme only ships 400 and 700).
+  url: "https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+  stack: '"Roboto Mono", Menlo, Monaco, monospace'
+  weight: 400
+  size: 15px
+  tracking: "-0.02em"
+
+noto-sans:
+  # Google's neutral sans (used by uuujf.github.io: 16px, weight 400).
+  url: "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+  stack: '"Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif'
+
+arial:
+  # System font (Google Docs / Slides default); no download. Arimo = metric-compatible fallback.
+  stack: 'Arial, "Helvetica Neue", Helvetica, Arimo, sans-serif'

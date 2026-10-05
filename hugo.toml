@@ -15,4 +15,12 @@ languageCode = "en-us"
   author = "Haotian Lin"
   description = "Haotian Lin's Academic Homepage"
   customCSS = ["css/custom.css"]
+  # Publication view switcher style ("Selected Publications | By Year"):
+  #   "plain"     = links row, active view is plain black text
+  #   "underline" = links row, active view is black text with an underline
+  #   "tabs"      = underline tabs (grey/black tabs on a thin rule, no "|")
+  pubTabStyle = "underline"
 
+  # Font preset (defined in data/fonts.yaml):
+  #   "raleway" | "lato" | "roboto" | "roboto-slab" | "roboto-mono" | "roboto-mono-light" | "noto-sans" | "arial"
+  font = "roboto-mono"

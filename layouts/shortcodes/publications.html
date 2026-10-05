@@ -1,0 +1,48 @@
+{{- /* Publication list with two in-page views, driven by data/publications.yaml.
+       Edit the YAML, not this file. */ -}}
+{{- $papers := site.Data.publications.papers -}}
+<p class="pub-note">(* Equal Contribution)</p>
+
+<p class="pub-tabs pub-tabs--{{ site.Params.pubTabStyle | default "underline" }}">
+<a class="pub-tab active" data-pub-view="selected" role="button" tabindex="0">Selected Publications</a><span class="pub-tab-sep"> | </span>
+<a class="pub-tab" data-pub-view="year" role="button" tabindex="0">By Year</a>
+</p>
+
+<div class="pub-view" id="pub-view-selected">
+{{- range $papers }}{{ if .selected }}
+{{ partial "pub-entry.html" (dict "p" . "view" "sel") }}
+{{- end }}{{ end }}
+</div>
+
+<div class="pub-view" id="pub-view-year" hidden>
+{{- $preprints := slice -}}
+{{- $years := slice -}}
+{{- range $papers -}}
+  {{- if .preprint }}{{ $preprints = $preprints | append . }}{{ else }}{{ $years = $years | append .year }}{{ end -}}
+{{- end -}}
+{{- with $preprints }}
+<h3 class="pub-year">Preprints</h3>
+{{- range . }}
+{{ partial "pub-entry.html" (dict "p" . "view" "year") }}
+{{- end }}
+{{- end }}
+{{- range sort (uniq $years) "value" "desc" }}
+{{- $y := . }}
+<h3 class="pub-year">{{ $y }}</h3>
+{{- range $papers }}{{ if and (not .preprint) (eq .year $y) }}
+{{ partial "pub-entry.html" (dict "p" . "view" "year") }}
+{{- end }}{{ end }}
+{{- end }}
+</div>
+
+<script>
+  // Switch between the two publication views in place (no page navigation).
+  document.querySelectorAll(".pub-tab").forEach(function (tab) {
+    function show() {
+      document.querySelectorAll(".pub-tab").forEach(function (t) { t.classList.toggle("active", t === tab); });
+      document.querySelectorAll(".pub-view").forEach(function (v) { v.hidden = v.id !== "pub-view-" + tab.dataset.pubView; });
+    }
+    tab.addEventListener("click", show);
+    tab.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); show(); } });
+  });
+</script>

@@ -1,3 +1,18 @@
 {{ range .Site.Params.customCSS }}
 <link rel="stylesheet" href="{{ . | absURL }}">
 {{ end }}
+{{- /* Font preset: chosen by [params] font in hugo.toml, defined in data/fonts.yaml. */ -}}
+{{- $key := site.Params.font | default "lato" -}}
+{{- with index site.Data.fonts $key }}
+{{- with .url }}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="{{ . }}">
+{{- end }}
+<style>
+  :root { --font-stack: {{ .stack | safeCSS }};{{ with .size }} --global-font-size: {{ . | safeCSS }};{{ end }} }
+  body { font-weight: {{ .weight | default 400 }};{{ with .tracking }} letter-spacing: {{ . | safeCSS }};{{ end }}{{ if .lnum }} font-variant-numeric: lining-nums; font-feature-settings: "lnum" 1;{{ end }} }
+</style>
+{{- else }}
+{{- errorf "hugo.toml: unknown [params] font = %q (see data/fonts.yaml for valid keys)" $key }}
+{{- end }}

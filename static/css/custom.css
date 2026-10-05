@@ -1,6 +1,9 @@
+/* Font: chosen in hugo.toml ([params] font = "..."), presets in data/fonts.yaml,
+   applied by layouts/partials/header.html. Do not set --font-stack here. */
+
 /* Force light/white theme regardless of system preference */
 :root {
-    --background-color: #fff;
+    --background-color: #f4f4f3;  /* warm off-white (jasonwei.net); was #fff */
     --font-color: #151515;
     --invert-font-color: #fff;
     --primary-color: #1a95e0;
@@ -9,7 +12,7 @@
     --progress-bar-background: #727578;
     --progress-bar-fill: #151515;
     --code-bg-color: #e8eff2;
-    --page-width: 70em;
+    --page-width: 1000px;  /* fixed px: text area = 1000 - 2x20px theme padding = 960px for every font */
 }
 
 /* Style links */
@@ -77,8 +80,9 @@ ol li > p {
    The console theme forces every heading to the body font size, so bump h2 up
    to make it read as an actual section title. */
 .container h2 {
-    margin-top: 3.75em;
-    font-size: 1.5em;
+    margin-top: 1.5em;
+    font-size: 1.35em;
+    margin-bottom: 0.6em;  /* theme default is 1.6em of h2 size (~38px) */
 }
 
 /* Unnumbered publications: each entry renders as a <p> whose lines are broken
@@ -157,4 +161,133 @@ ol li > p {
 .bibtex-code-box code::before,
 .bibtex-code-box code::after {
     content: none;
+}
+
+/* Publication view switcher, rendered by layouts/shortcodes/publications.html.
+   The style is picked in hugo.toml: [params] pubTabStyle = "plain" | "underline" | "tabs".
+   The shortcode adds the matching class pub-tabs--<style> to the row. */
+.container p.pub-tabs {
+    margin: 0 0 1.5em;
+}
+
+.pub-tab {
+    cursor: pointer;
+}
+
+.pub-tab.active,
+.pub-tab.active:hover {
+    cursor: default;
+    color: var(--font-color);
+    background-color: transparent; /* cancel the site-wide a:hover fill */
+}
+
+/* "plain": links row like "Google Scholar | CV | ..."; active = black text.
+   (Nothing extra needed beyond the shared rules above.) */
+
+/* "underline": links row; active = black text + 2px underline. */
+.pub-tabs--underline .pub-tab.active {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.35em;
+}
+
+/* "tabs": tab component; thin rule under the row, grey inactive tab,
+   black bold active tab sitting on a 2px bar; the "|" is hidden. */
+.container p.pub-tabs--tabs {
+    display: flex;
+    gap: 1.75em;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.pub-tabs--tabs .pub-tab-sep {
+    display: none;
+}
+
+.pub-tabs--tabs .pub-tab,
+.pub-tabs--tabs .pub-tab:hover {
+    padding-bottom: 0.4em;
+    margin-bottom: -1px;
+    border-bottom: 2px solid transparent;
+    color: var(--secondary-color);
+    background-color: transparent;
+}
+
+.pub-tabs--tabs .pub-tab:hover {
+    color: var(--font-color);
+}
+
+.pub-tabs--tabs .pub-tab.active,
+.pub-tabs--tabs .pub-tab.active:hover {
+    color: var(--font-color);
+    font-weight: 600;
+    border-bottom-color: var(--font-color);
+}
+
+.pub-view[hidden] {
+    display: none;
+}
+
+/* Year / "Preprints" group headings inside the By Year view. */
+.container h3.pub-year {
+    font-size: 1.1em;
+    color: var(--secondary-color);
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+/* "(* Equal Contribution)": a small grey footnote under the heading, not body text. */
+.container p.pub-note {
+    font-size: 0.875em;
+    color: var(--secondary-color);
+    margin-bottom: 1em;
+}
+
+/* ===== EXPERIMENT (2026-10-05), DISABLED: publication entry hierarchy =====
+   Tried and reverted. To re-enable, remove this comment's opening and closing lines.
+   title 16px black bold > authors 15px #444 > venue 15px #666 > links 14px blue.
+
+.pub-entry .pub-authors { font-size: 0.9375em; color: #444; }
+.pub-entry .pub-authors strong { color: var(--font-color); }
+.pub-entry .pub-venue { font-size: 0.9375em; color: #666; }
+.pub-entry > a { font-size: 0.875em; }
+.container p.pub-note { color: #666; }
+
+   ===== END EXPERIMENT ===== */
+
+/* About section: text on the left, photo on the right (two columns, no text
+   wrapping around the photo). Markup is the <div class="about"> wrapper in
+   content/_index.md. On narrow screens the photo moves above the text. */
+.about {
+    display: flex;
+    align-items: center;
+    gap: 2.5em;
+}
+
+.about-text {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.about-photo {
+    flex: 0 0 25%;
+    max-width: 360px;
+}
+
+.about-photo img {
+    display: block;
+    width: 100%;
+    border-radius: 5%;
+}
+
+@media (max-width: 600px) {
+    .about {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 1em;
+    }
+
+    .about-photo {
+        flex-basis: auto;
+        width: 160px;
+    }
 }

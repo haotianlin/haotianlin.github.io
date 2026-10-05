@@ -1,0 +1,95 @@
+# Publication list — the single source of truth for both views on the homepage
+# (rendered by layouts/shortcodes/publications.html).
+#
+# How to edit:
+#   - Put / remove a paper in "Selected Publications": set `selected: true` / `false`.
+#   - Order: papers appear in the order written here (in both views). Keep newest first.
+#   - "By Year" view: papers with `preprint: true` go under "Preprints" (top);
+#     everything else is grouped by `year` automatically.
+#   - authors: plain text; "Haotian Lin" is bolded automatically; use * for equal contribution.
+#   - bibtex: (optional) key of an entry in static/bibs/references.bib.
+#   - links: (optional) shown as [name] after the venue line.
+
+papers:
+  - title: "CellularS2-Bench: A Staged, Evidence-Grounded Benchmark for Cellular Network Security Reasoning"
+    authors: "Ke Xie, Xingyi Zhao, Yiwen Hu, Haotian Lin, Shuhan Yuan, Wen Li, Tian Xie"
+    venue: "Neural Information Processing Systems (NeurIPS), Evaluations and Datasets Track, 2026"
+    year: 2026
+    selected: false
+
+  - title: "ReSkill: Reconciling Skill Creation with Policy Optimization in Agentic RL"
+    authors: "Zelin He*, Haotian Lin*, Boran Han, Wei Zhu, Haoyang Fang, Bernie Wang, Xuan Zhu, Runze Li, Matthew Reimherr"
+    venue: "(Preprint)"
+    year: 2026
+    preprint: true
+    selected: false
+    links:
+      - { name: "arXiv:2606.01619", url: "https://arxiv.org/abs/2606.01619" }
+      - { name: "Project Website", url: "https://amazon-science.github.io/reskill/" }
+
+  - title: "Discussion on ``INTACT: A method for integration of longitudinal physical activity data from multiple sources''"
+    authors: "Haotian Lin and Matthew Reimherr"
+    venue: "Biometrics (Invited discussion)"
+    year: 2026
+    selected: false
+    links:
+      - { name: "Paper", url: "https://academic.oup.com/biometrics/article-abstract/82/2/ujag113/8709401" }
+
+  - title: "SenTSR-Bench: Thinking with Injected Knowledge for Time-Series Reasoning"
+    authors: "Zelin He, Boran Han, Xiyuan Zhang, Shuai Zhang, Haotian Lin, Qi Zhu, Haoyang Fang, Danielle C. Maddix, Abdul Fatir Ansari, Akash Chandrayan, Abhinav Pradhan, Bernie Wang, Matthew Reimherr"
+    venue: "International Conference on Artificial Intelligence and Statistics (AISTATS), 2026"
+    year: 2026
+    selected: false
+    links:
+      - { name: "arXiv:2602.19455", url: "https://arxiv.org/abs/2602.19455" }
+    bibtex: he2026sentsr
+
+  - title: "Co-Regularization Enhances Knowledge Transfer in High Dimensions"
+    authors: "Shuo-Shuo Liu*, Haotian Lin*, Matthew Reimherr, Runze Li"
+    venue: "Neural Information Processing Systems (NeurIPS), 2025"
+    year: 2025
+    selected: true
+    links:
+      - { name: "Paper", url: "https://openreview.net/forum?id=Oq7Rgvfqvj" }
+    bibtex: liu2026co
+
+  - title: "Fixed-Gaussian Spectral Algorithms: Minimax Optimal Rates for Misspecified Learning and Transfer"
+    authors: "Haotian Lin and Matthew Reimherr"
+    venue: "(Preprint)"
+    year: 2025
+    preprint: true
+    selected: false
+    links:
+      - { name: "arXiv:2501.10870", url: "https://arxiv.org/abs/2501.10870" }
+    bibtex: lin2025model
+
+  - title: "Pure Differential Privacy for Functional Summaries with a Laplace-like Process"
+    authors: "Haotian Lin and Matthew Reimherr"
+    venue: "Journal of Machine Learning Research (JMLR), 2024"
+    year: 2024
+    selected: true
+    links:
+      - { name: "Paper", url: "https://www.jmlr.org/papers/v25/22-1384.html" }
+      - { name: "arXiv:2309.00125", url: "https://arxiv.org/abs/2309.00125" }
+    bibtex: lin2024pure
+
+  - title: "Smoothness Adaptive Hypothesis Transfer Learning"
+    authors: "Haotian Lin and Matthew Reimherr"
+    venue: "International Conference on Machine Learning (ICML), 2024"
+    year: 2024
+    selected: true
+    links:
+      - { name: "Paper", url: "https://proceedings.mlr.press/v235/lin24q.html" }
+      - { name: "arXiv:2402.14966", url: "https://arxiv.org/abs/2402.14966" }
+    bibtex: lin2024smoothness
+
+  - title: "On Hypothesis Transfer Learning in Functional Linear Models"
+    authors: "Haotian Lin and Matthew Reimherr"
+    venue: "International Conference on Machine Learning (ICML), 2024"
+    year: 2024
+    selected: true
+    links:
+      - { name: "Paper", url: "https://proceedings.mlr.press/v235/lin24p.html" }
+      - { name: "arXiv:2206.04277", url: "https://arxiv.org/abs/2206.04277" }
+      - { name: "Code", url: "https://github.com/haotianlin/HTL-FLM" }
+    bibtex: lin2024hypothesis

@@ -1,0 +1,12 @@
+{{- /* One publication entry: bold title / authors / venue / [links] [bibtex].
+       Args (dict): p = paper from data/publications.yaml; view = "sel" | "year"
+       (view keeps bibtex DOM ids unique, since a paper can render in both views). */ -}}
+{{- $p := .p -}}
+{{- $authors := replace (htmlEscape $p.authors) "Haotian Lin" "<strong>Haotian Lin</strong>" -}}
+<p class="pub-entry"><strong>{{ $p.title | markdownify }}</strong><br>
+<span class="pub-authors">{{ $authors | safeHTML }}</span><br>
+<span class="pub-venue">{{ $p.venue | markdownify }}</span>
+{{- if or $p.links $p.bibtex }}<br>
+{{ range $p.links }}<a href="{{ .url }}" target="_blank" rel="noopener">[{{ .name }}]</a> {{ end }}
+{{- with $p.bibtex }}{{ partial "bibtex.html" (dict "key" . "id" (printf "bib-%s-%s" $.view .)) }}{{ end }}
+{{- end }}</p>
