@@ -16,3 +16,8 @@
 {{- else }}
 {{- errorf "hugo.toml: unknown [params] font = %q (see data/fonts.yaml for valid keys)" $key }}
 {{- end }}
+{{- /* GoatCounter analytics (private dashboard: https://haotianlin.goatcounter.com).
+       Production builds only, so local previews are not counted. */ -}}
+{{- if hugo.IsProduction }}
+<script data-goatcounter="https://haotianlin.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+{{- end }}
