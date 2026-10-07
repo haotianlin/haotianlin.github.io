@@ -24,3 +24,6 @@ languageCode = "en-us"
   # Font preset (defined in data/fonts.yaml):
   #   "raleway" | "lato" | "roboto" | "roboto-slab" | "roboto-mono" | "roboto-mono-light" | "noto-sans" | "arial"
   font = "roboto-mono"
+
+# Google Analytics 4 ID lives in config/production/hugo.toml (production builds
+# only, so local previews are not counted).

@@ -1,0 +1,7 @@
+# Production-only settings, merged on top of the root hugo.toml when
+# HUGO_ENVIRONMENT=production (the GitHub Actions deploy).
+
+# Google Analytics 4 (private stats; no consent banner). Rendered by the theme's
+# baseof.html via Hugo's internal google_analytics template.
+[services.googleAnalytics]
+  ID = "G-WZD1VB2K3K"
